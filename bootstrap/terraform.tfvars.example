@@ -1,0 +1,3 @@
+project_id        = "<aevo-bootstrap-project>"
+state_bucket_name = "<aevo-bootstrap-project>-tfstate"
+region            = "asia-southeast1"

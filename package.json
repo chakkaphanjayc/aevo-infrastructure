@@ -1,0 +1,14 @@
+{
+  "name": "@aevocado/infrastructure",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.4.2",
+  "scripts": {
+    "check": "bun run scripts/check-manifests.ts && bun run check:migration-ownership",
+    "check:migration-ownership": "bun run scripts/check-migration-ownership.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.2"
+  }
+}

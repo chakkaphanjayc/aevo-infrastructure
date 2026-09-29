@@ -1,0 +1,5 @@
+project_id  = "<aevo-prod-project>"
+region      = "asia-southeast1"
+api_image   = "asia-southeast1-docker.pkg.dev/<aevo-prod-project>/aevo/core-api:<digest>"
+worker_image = "asia-southeast1-docker.pkg.dev/<aevo-prod-project>/aevo/background-worker:<digest>"
+accounts_api_origin = ""
